@@ -26,7 +26,7 @@ export default function Footer() {
         }}
       >
         <Text
-          as="p"
+          as="div"
           styleSheet={{
             textVariant: theme.typography.variants.body3,
             textAlign: "center",

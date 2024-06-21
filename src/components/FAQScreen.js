@@ -1,8 +1,8 @@
 // FAQScreen.js
-import Footer from '../../components/patterns/Footer';
-import Link from '../../components/Link';
-import { theme } from '../../theme/theme';
-import { Box, Text } from '../../theme/components';
+import Footer from './patterns/Footer';
+import Link from './Link';
+import { theme } from '../theme/theme';
+import { Box, Text } from '../theme/components';
 
 export default function FAQScreen({ faq }) {
   return (
@@ -50,7 +50,7 @@ export default function FAQScreen({ faq }) {
               FAQ: Perguntas Frequentes
             </Text>
             <Text
-              as="p"
+              as="div"
               styleSheet={{
                 marginTop: theme.space.x4,
                 textVariant: theme.typography.variants.body1,
@@ -72,7 +72,7 @@ export default function FAQScreen({ faq }) {
             </Text>
 
             <Text
-              as="p"
+              as="div"
               styleSheet={{
                 marginTop: theme.space.x4,
                 textVariant: theme.typography.variants.body1,
@@ -137,7 +137,7 @@ export default function FAQScreen({ faq }) {
                   Nada por aqui
                 </Text>
                 <Text
-                  as="p"
+                  as="div"
                   styleSheet={{
                     marginTop: theme.space.x1,
                     textVariant: theme.typography.variants.body1,

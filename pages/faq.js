@@ -1,5 +1,4 @@
-// faq.js
-import FAQScreen from '../src/screens/FAQScreen';
+import FAQScreen from "../src/components/FAQScreen";
 
 export default FAQScreen; 
 

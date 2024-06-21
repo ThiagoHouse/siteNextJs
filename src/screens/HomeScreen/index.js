@@ -235,7 +235,7 @@ export default function HomeScreen() {
                     Alura Cases
                   </Text>
                   <Text
-                    as="p"
+                    as="div"
                     styleSheet={{
                       textVariant: theme.typography.variants.body1,
                       color: theme.colors.neutral["500"],
@@ -245,7 +245,7 @@ export default function HomeScreen() {
                     Aqui você vai ter acesso a discussões avançadas: as principais decisões sobre arquitetura e design de sistemas. Aprenda através das descobertas que as principais empresas de tecnologia enfrentam!
                   </Text>
                   <Text
-                    as="p"
+                    as="div"
                     styleSheet={{
                       textVariant: theme.typography.variants.body1,
                       color: theme.colors.neutral["500"],
